@@ -1,0 +1,38 @@
+<annotation>
+	<folder>raw butterfly</folder>
+	<filename>1.jpg</filename>
+	<path>/Users/olympia/Desktop/蝴蝶-花数据1/raw butterfly/1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>299</width>
+		<height>168</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>butterfly</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>85</xmin>
+			<ymin>46</ymin>
+			<xmax>225</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flower</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>121</xmin>
+			<ymin>26</ymin>
+			<xmax>177</xmax>
+			<ymax>51</ymax>
+		</bndbox>
+	</object>
+</annotation>

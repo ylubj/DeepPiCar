@@ -1,4 +1,4 @@
-"""
+	"""
 Usage:
 
 # Create train data:
@@ -54,6 +54,7 @@ def create_tf_example(group, path, label_map):
         encoded_jpg = fid.read()
     encoded_jpg_io = io.BytesIO(encoded_jpg)
     image = Image.open(encoded_jpg_io)
+    image_resize = image.resize((600,811))
     width, height = image.size
 
     filename = group.filename.encode("utf8")
